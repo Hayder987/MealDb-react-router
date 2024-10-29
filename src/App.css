@@ -3,3 +3,13 @@ ul .active{
     color:coral;
     text-decoration: underline;
 }
+
+.ImgBg{
+    background: 
+     linear-gradient(to right, #0c000850, #1f01006e),
+     url("https://i.ibb.co.com/16yfJyc/banner-2.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+}

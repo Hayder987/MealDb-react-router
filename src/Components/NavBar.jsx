@@ -26,6 +26,7 @@ const NavBar = () => {
                      <NavLink onClick={itemBtnController} to="/">Home</NavLink>
                      <NavLink onClick={itemBtnController} to="/about">About</NavLink>
                      <NavLink onClick={itemBtnController} to="/contact">Contact</NavLink>
+                     
                     </ul>
                 </div>
                 <div className="hidden md:flex ">
@@ -33,6 +34,7 @@ const NavBar = () => {
                      <NavLink to="/">Home</NavLink>
                      <NavLink to="/about">About</NavLink>
                      <NavLink to="/contact">Contact</NavLink>
+                     
                     </ul>
                 </div>
                 <div onClick={menuBtnHandeler} className="flex text-2xl md:hidden">
