@@ -41,7 +41,7 @@ const Foods = () => {
                     <img src={item.strMealThumb} alt="" className="rounded-xl mb-4 object-cover" />
                     <h3 className="text-xl font-semibold text-center mb-3">{item.strMeal}</h3>
                     </div>
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col md:flex-row gap-4 justify-between items-center">
                     <Link to={`/posts/${item.idMeal}`}
                      className="text-xl underline text-orange-400 font-semibold">View Details
                      </Link>

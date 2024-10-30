@@ -25,7 +25,7 @@ const catBtnHandellar=(id,catName)=>{
                    className={`flex flex-col ${selectedItem===category.idCategory?"bg-orange-200":""}  justify-center border-2 w-full px-4 py-2 rounded-xl gap-2 items-center`}>
                     <img src={category.strCategoryThumb} alt="" 
                     className="w-18 h-16 rounded-full" />
-                    <h3 className="text-xl">{category.strCategory}</h3>
+                    <h3 className="text-sm md:text-xl">{category.strCategory}</h3>
                    </button>
                    
                 </div>
